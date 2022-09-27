@@ -1,0 +1,33 @@
+.spaces {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.space__items {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 2rem;
+}
+
+.space__items a {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1450px) {
+	.space__items {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	.space__items {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.space__items {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}

@@ -1,0 +1,89 @@
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: var(--black);
+}
+
+:root {
+	/* COLORS */
+	--white: #fff;
+	--black: #222;
+	--green-light: #d1e7dd;
+	--green-dark: #0f5132;
+	--red: rgb(255, 70, 70);
+	--red-light: #c06f77;
+	--red-dark: #842029;
+	--disabled: #ccc;
+	--disabled-text: #979797;
+
+	/* CONTAINER */
+	--fluid-width: 90vw;
+	--max-width: 1120px;
+
+	/* FONTS */
+	--main-header: 4.5rem;
+	--heading: 1.5rem;
+
+	/* BORDER */
+	--border: 2px solid var(--green-dark);
+	--border-bold: 3px solid var(--green-dark);
+	--border-variant: 2px solid var(--green-light);
+	--border-radius: 0.45rem;
+
+	/* BORDER RADIUS */
+
+	/* TRANSITION */
+	--transition: all 400ms ease;
+}
+
+img {
+	width: 100%;
+	object-fit: cover;
+}
+
+input {
+	width: 10rem;
+}
+
+.container {
+	width: var(--fluid-width);
+	max-width: var(--max-width);
+	margin: 0 auto;
+}
+
+.container__full {
+	width: var(--fluid-width);
+	margin: auto;
+}
+
+a {
+	color: var(--green-dark);
+}
+
+p {
+	font-size: 1rem;
+}
+
+.success {
+	color: var(--green-dark);
+	font-weight: 500;
+	border: 2px solid var(--green-light);
+	background-color: var(--green-light);
+	border-radius: 0.25rem;
+	padding-inline: 1rem;
+}
+
+.error {
+	color: var(--white);
+	font-weight: 500;
+	border: 2px solid var(--red);
+	background-color: var(--red);
+	border-radius: 0.25rem;
+	padding-inline: 1rem;
+}

@@ -1,0 +1,9 @@
+.form-control__input select {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	font-weight: 500;
+	padding: 0.75rem 0.5rem;
+	border-radius: 0.25rem;
+	min-width: 100%;
+	border: var(--border);
+}

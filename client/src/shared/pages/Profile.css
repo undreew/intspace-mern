@@ -1,0 +1,60 @@
+.profile {
+	padding-top: 2rem;
+	font-size: var(--heading);
+}
+
+.user__info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 2rem;
+}
+
+.user__image {
+	height: 125px;
+	width: 125px;
+	border-radius: 50%;
+
+	overflow: hidden;
+}
+
+.user__image img {
+	height: 100%;
+}
+
+.user__details {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.user__details__action {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.basic__profile {
+	border-bottom: 2px solid var(--green-dark);
+}
+
+.update-password__form,
+.upload-image__form {
+	padding-inline: 1rem;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+@media screen and (max-width: 629px) {
+	.user__info {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 456px) {
+	.profile {
+		font-size: 1.25rem;
+	}
+}

@@ -1,0 +1,50 @@
+.space__item {
+	border: var(--border-bold);
+	border-radius: var(--border-radius);
+
+	height: 200px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	cursor: pointer;
+	transition: all 100ms ease-out;
+}
+
+.space__item:hover {
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.space__item__left {
+	flex: 0.6;
+
+	padding: 1rem 1.25rem;
+
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.space__item__left h2 {
+	font-weight: 600;
+}
+
+.space__item__right {
+	flex: 0.4;
+	background-color: var(--green-dark);
+}
+
+.space__item__details {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+}
+
+.section {
+	font-weight: 500;
+}
+
+.instructor__name {
+	font-weight: 600;
+}
